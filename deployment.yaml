@@ -15,7 +15,7 @@ spec:
     spec:
       containers:
         - name: myapp
-          image: ghcr.io/jehoon0908-ops/myapp:sha-b92477987bdafd2e8ac2bb609929d473907d97aa
+          image: ghcr.io/jehoon0908-ops/myapp:sha-4ea64a904801a97a9fdbdd986f899dc93d9406ae
           imagePullPolicy: Always
           ports:
             - containerPort: 8080
