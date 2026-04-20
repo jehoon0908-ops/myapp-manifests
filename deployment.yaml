@@ -15,7 +15,7 @@ spec:
     spec:
       containers:
         - name: myapp
-          image: 10.10.20.220:30002/myapp/myapp:sha-017c253b193727e4fc7aa3fb4a1c8a6a909dba84
+          image: 10.10.20.220:30002/myapp/myapp:sha-96b86b134e2414d17c35db9438eb4eee9d3e2097
           imagePullPolicy: Always
           ports:
             - containerPort: 8080
